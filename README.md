@@ -1,8 +1,8 @@
 # GoT_ETL_Project
 
 1. The sources of data that we will extract from. 
-  1. Battles.csv
-  1. Character-deaths.csv
+  - Battles.csv
+  - Character-deaths.csv
 1. Types of transformations
   1. List all characters that belong to a particular house
     1.Joining, filtering
