@@ -17,3 +17,13 @@
     - Listing of all characters by house
     - Battles won/lost per house
     - List of members that are alive per house
+    
+### Steps to Reproduce ETL
+1. Open MySQL Workbench and open the schema.sql file
+1. Run schema.sql in MySQL workbench
+    - This will create the database and the corresponding tables
+1. Open the GoT_ETL.ipynb Jupyter notebook in jupyter 
+    - Run the code in the notebook
+    - The SQL tables will be loaded with data after running the notebook
+1. To view the tables open MySQL Workbench and open the query.sql
+    - This will load the tables with the appropriate data. 
